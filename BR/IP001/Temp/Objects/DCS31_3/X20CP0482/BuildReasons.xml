@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\opcuamap\opcuamap.uar.gz">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\arconfig.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\main.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\dcs31_3\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\main.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\_bur_pvdef.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\_bur_pvdef.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\dcs31_3.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\dcs31_3\dcs31_3.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\valves_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\valves_xch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\valves_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\valves_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\valves_xch.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\libip001.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_3\x20cp0482\libip001\libip001.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\dcs31_3\x20cp0482\transfer.lst">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

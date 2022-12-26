@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Lib489.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/LibIP001.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DRV_mbus/DRV_mbus.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/Types.typ
+$(AS_PROJECT_PATH)/Logical/DCS31_4/Variables.var

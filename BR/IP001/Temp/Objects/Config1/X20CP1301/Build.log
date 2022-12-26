@@ -1,0 +1,3 @@
+IP001 | Config1 | Build
+BR.AS.BuildFrame.exe, Error = False. Call = BR.AS.BuildFrame.exe "C:\Users\User\Desktop\IP001\Physical\Config1\X20CP1301\Connectivity\OpcUA\OpcUaMap.uad" -o "C:\Users\User\Desktop\IP001\Temp\Objects\Config1\X20CP1301\OpcUaMap\OpcUaMap.uar.gz" -H "C:\Users\User\Desktop\IP001\Physical\Config1\Hardware.hw" -B C4.72 -c Config1 -P "C:\Users\User\Desktop\IP001" 
+mingw32-make.exe, Error = False. Call = mingw32-make.exe  -r -f "C:\Users\User\Desktop\IP001\Temp\Objects\Config1\X20CP1301\#cpu_tp.mak" -k

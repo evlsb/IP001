@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%ID.SerialNumber" Type="UDINT">
+<Prod Device="$root" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.ModuleID" Type="UINT">
+<Prod Device="$root" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.HardwareVariant" Type="UINT">
+<Prod Device="$root" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.FirmwareVersion" Type="UINT">
+<Prod Device="$root" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IW.StorageWear" Type="UINT">
+<Prod Device="$root" DPName="StorageWear" Kind="io"/>
+</LN>
+<LN ID="%IB.ModeSwitch" Type="USINT">
+<Prod Device="$root" DPName="ModeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IB.BatteryStatusCPU" Type="USINT">
+<Prod Device="$root" DPName="BatteryStatusCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureCPU" Type="UINT">
+<Prod Device="$root" DPName="TemperatureCPU" Kind="io"/>
+</LN>
+<LN ID="%IW.TemperatureENV" Type="UINT">
+<Prod Device="$root" DPName="TemperatureENV" Kind="io"/>
+</LN>
+<LN ID="%ID.SystemTime" Type="DINT">
+<Prod Device="$root" DPName="SystemTime" Kind="io"/>
+</LN>
+<LN ID="%IX.StatusInput01" Type="BOOL">
+<Prod Device="$root" DPName="StatusInput01" Kind="io"/>
+</LN>
+<LN ID="%IB.SupplyCurrent" Type="USINT">
+<Prod Device="$root" DPName="SupplyCurrent" Kind="io"/>
+</LN>
+<LN ID="%IB.SupplyVoltage" Type="USINT">
+<Prod Device="$root" DPName="SupplyVoltage" Kind="io"/>
+</LN>
+<LN ID="%IB.IF2.NodeSwitch" Type="USINT">
+<Prod Device="$root" DPName="IF2.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.MODBUS.ModbusMasterDiag" Type="BOOL">
+<Cons Device="$root" DPName="IF2.MODBUS.ModbusMasterDiag" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagActInternalError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagActInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagActConfigError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagActConfigError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagActConError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagActConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagActSlvRefreshError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagActSlvRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagActSlaveError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagActSlaveError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagHistInternalError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagHistInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagHistConfigError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagHistConfigError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagHistConError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagHistConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagHistSlvRefreshError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagHistSlvRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.DiagHistSlaveError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.DiagHistSlaveError" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.MODBUS.ModMasterState" Type="UINT">
+<Prod Device="$root" DPName="IF2.MODBUS.ModMasterState" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.MODBUS.ErrorRemoteAddress" Type="UINT">
+<Prod Device="$root" DPName="IF2.MODBUS.ErrorRemoteAddress" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvInternalError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvConfError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvConfError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvOverloadError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvOverloadError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvModbusError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvModbusError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvConError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.MODBUS.SlvRefreshError" Type="BOOL">
+<Prod Device="$root" DPName="IF2.MODBUS.SlvRefreshError" Kind="io"/>
+</LN>
+<LN ID="%QD.IF2.MODBUS.LoggingInhibitTime" Type="UDINT">
+<Cons Device="$root" DPName="IF2.MODBUS.LoggingInhibitTime" Kind="io"/>
+</LN>
+<LN ID="%IX.IF3.LinkOk" Type="BOOL">
+<Prod Device="$root" DPName="IF3.LinkOk" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.CycleCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.BreakCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.BreakCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.Nettime" Type="DINT">
+<Prod Device="$root" DPName="IF6.Nettime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncSramErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncSramErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncBusyErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncBusyErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncNoRxErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncNoRxErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFormatErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFormatErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncPendingErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncPendingErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.DMALateOutputErrorCount" Type="DINT">
+<Prod Device="$root" DPName="IF6.DMALateOutputErrorCount" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.NrOfStationsMax" Type="USINT">
+<Prod Device="$root" DPName="IF6.NrOfStationsMax" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.NrOfStationsConfigured" Type="USINT">
+<Prod Device="$root" DPName="IF6.NrOfStationsConfigured" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationAtBusEnd" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationAtBusEnd" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationAtBusEndChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationAtBusEndChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationPastOutFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationPastOutFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationPastOutFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationPastOutFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%IB.IF6.StationPastInFrameError" Type="USINT">
+<Prod Device="$root" DPName="IF6.StationPastInFrameError" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.StationPastInFrameErrorChangeTime" Type="DATE_AND_TIME">
+<Prod Device="$root" DPName="IF6.StationPastInFrameErrorChangeTime" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncInFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncInFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.SyncOutFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.SyncOutFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFrameSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFrameSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.AsyncFrameSpareSize" Type="DINT">
+<Prod Device="$root" DPName="IF6.AsyncFrameSpareSize" Kind="io"/>
+</LN>
+<LN ID="%ID.IF6.BusLengthConfigured" Type="DINT">
+<Prod Device="$root" DPName="IF6.BusLengthConfigured" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ModuleOk" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActInternalError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActConfError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActConfError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActOverloadError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActOverloadError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActModbusError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActModbusError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActSlvConError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActSlvConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.ActRefreshError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="ActRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModSlaveState" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModSlaveState" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusErrorLast" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusErrorLast" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.LastErrBlockNr" Type="UINT">
+<Prod Device="IF2.ST1" DPName="LastErrBlockNr" Kind="io"/>
+</LN>
+<LN ID="%QX.IF2.ST1.ModbusSlaveDiag" Type="BOOL">
+<Cons Device="IF2.ST1" DPName="ModbusSlaveDiag" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistInternalError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistInternalError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistConfError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistConfError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistOverloadError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistOverloadError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistModbusError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistModbusError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistSlvConError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistSlvConError" Kind="io"/>
+</LN>
+<LN ID="%IX.IF2.ST1.HistRefreshError" Type="BOOL">
+<Prod Device="IF2.ST1" DPName="HistRefreshError" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusErrorCnt" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusErrorCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusConErrorCnt" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusConErrorCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusPktRefreshTimeoutCnt" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusPktRefreshTimeoutCnt" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusPktPendPerSec" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusPktPendPerSec" Kind="io"/>
+</LN>
+<LN ID="%IW.IF2.ST1.ModbusMeanResponseTime" Type="UINT">
+<Prod Device="IF2.ST1" DPName="ModbusMeanResponseTime" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.ModuleOk" Type="BOOL">
+<Prod Device="SS1" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.SerialNumber" Type="UDINT">
+<Prod Device="SS1" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.SS1.ModuleID" Type="UINT">
+<Prod Device="SS1" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.SS1.HardwareVariant" Type="UINT">
+<Prod Device="SS1" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.SS1.FirmwareVersion" Type="UINT">
+<Prod Device="SS1" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF1.Primary" Type="BOOL">
+<Prod Device="SS1" DPName="IF1.Primary" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF1.Active" Type="BOOL">
+<Prod Device="SS1" DPName="IF1.Active" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF1.LinkOk" Type="BOOL">
+<Prod Device="SS1" DPName="IF1.LinkOk" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF1.Available" Type="BOOL">
+<Prod Device="SS1" DPName="IF1.Available" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF1.CPUProcessCtrlState" Type="USINT">
+<Prod Device="SS1" DPName="IF1.CPUProcessCtrlState" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF1.SwitchoverLevel" Type="USINT">
+<Prod Device="SS1" DPName="IF1.SwitchoverLevel" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF1.RRADMapping" Type="USINT">
+<Prod Device="SS1" DPName="IF1.RRADMapping" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF1.RRADState" Type="USINT">
+<Prod Device="SS1" DPName="IF1.RRADState" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC1RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC1RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC2RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC2RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC3RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC3RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC4RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC4RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC5RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC5RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC6RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC6RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC7RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC7RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC8RRADDataMissed" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC8RRADDataMissed" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC1TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC1TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC2TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC2TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC3TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC3TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC4TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC4TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC5TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC5TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC6TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC6TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC7TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC7TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TC8TimeReserveMicroSeconds" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TC8TimeReserveMicroSeconds" Kind="io"/>
+</LN>
+<LN ID="%IX.SS1.IF1.Toggle" Type="BOOL">
+<Prod Device="SS1" DPName="IF1.Toggle" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeToggleShort" Type="DATE_AND_TIME">
+<Prod Device="SS1" DPName="IF1.TimeToggleShort" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeToggleLong" Type="DATE_AND_TIME">
+<Prod Device="SS1" DPName="IF1.TimeToggleLong" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeToggleOther" Type="DATE_AND_TIME">
+<Prod Device="SS1" DPName="IF1.TimeToggleOther" Kind="io"/>
+</LN>
+<LN ID="%IB.SS1.IF1.ModeSwitch" Type="USINT">
+<Prod Device="SS1" DPName="IF1.ModeSwitch" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeModeSwitch" Type="DATE_AND_TIME">
+<Prod Device="SS1" DPName="IF1.TimeModeSwitch" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.SyncTx" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.SyncTx" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.SyncRx" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.SyncRx" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.SyncMis" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.SyncMis" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeSecondsLocal" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TimeSecondsLocal" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeNanosecondsLocal" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TimeNanosecondsLocal" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.NettimeLocal" Type="DINT">
+<Prod Device="SS1" DPName="IF1.NettimeLocal" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.NettimeOffsetLocal" Type="DINT">
+<Prod Device="SS1" DPName="IF1.NettimeOffsetLocal" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeSecondsRemote" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TimeSecondsRemote" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.TimeNanosecondsRemote" Type="UDINT">
+<Prod Device="SS1" DPName="IF1.TimeNanosecondsRemote" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.NettimeRemote" Type="DINT">
+<Prod Device="SS1" DPName="IF1.NettimeRemote" Kind="io"/>
+</LN>
+<LN ID="%ID.SS1.IF1.NettimeOffsetRemote" Type="DINT">
+<Prod Device="SS1" DPName="IF1.NettimeOffsetRemote" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.ModuleOk" Type="BOOL">
+<Prod Device="SS2" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.SerialNumber" Type="UDINT">
+<Prod Device="SS2" DPName="SerialNumber" Kind="io"/>
+</LN>
+<LN ID="%IW.SS2.ModuleID" Type="UINT">
+<Prod Device="SS2" DPName="ModuleID" Kind="io"/>
+</LN>
+<LN ID="%IW.SS2.HardwareVariant" Type="UINT">
+<Prod Device="SS2" DPName="HardwareVariant" Kind="io"/>
+</LN>
+<LN ID="%IW.SS2.FirmwareVersion" Type="UINT">
+<Prod Device="SS2" DPName="FirmwareVersion" Kind="io"/>
+</LN>
+<LN ID="%IB.SS2.IF1.NodeSwitch" Type="USINT">
+<Prod Device="SS2" DPName="IF1.NodeSwitch" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.LinkOk01" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.LinkOk01" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.LinkOk02" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.LinkOk02" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.CableRedundancyOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.CableRedundancyOk" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.ActiveManagingNode" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.ActiveManagingNode" Kind="io"/>
+</LN>
+<LN ID="%IB.SS2.IF1.NodeNumber" Type="USINT">
+<Prod Device="SS2" DPName="IF1.NodeNumber" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.CycleOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.CycleOk" Kind="io"/>
+</LN>
+<LN ID="%IX.SS2.IF1.SyncOk" Type="BOOL">
+<Prod Device="SS2" DPName="IF1.SyncOk" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.TimeSeconds" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.TimeSeconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.TimeNanoseconds" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.TimeNanoseconds" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.NettimeSoC" Type="DINT">
+<Prod Device="SS2" DPName="IF1.NettimeSoC" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.NettimeOffset" Type="DINT">
+<Prod Device="SS2" DPName="IF1.NettimeOffset" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.FailedCycleCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.FailedCycleCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleTimeViolationCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleTimeViolationCount" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleIdleTime" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleIdleTime" Kind="io"/>
+</LN>
+<LN ID="%ID.SS2.IF1.CycleCongestionCount" Type="UDINT">
+<Prod Device="SS2" DPName="IF1.CycleCongestionCount" Kind="io"/>
+</LN>
+</Links></IO>

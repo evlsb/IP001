@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.11.2.75 FileVersion="4.9"?>
+<Hardware xmlns="http://br-automation.co.at/AS/Hardware">
+  <Module Name="ModbusTcp_any" Type="ModbusTcp_any" Version="1.1.0.0">
+    <Connection Connector="ETH1" TargetModule="X20CP3586" TargetConnector="IF2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="IpAddress" Value="192.168.15.202" />
+    <Parameter ID="UnitId" Value="1" />
+  </Module>
+  <Module Name="X20CP3586" Type="X20CP3586" Version="1.10.0.0">
+    <Connector Name="IF2">
+      <Parameter ID="ActivateDevice" Value="1" />
+      <Parameter ID="EthInterfaceRedundant" Value="1" />
+      <Parameter ID="ClusterInternetAddress" Value="192.168.15.210" />
+      <Parameter ID="ClusterSubnetMask" Value="255.255.255.0" />
+      <Parameter ID="Mode" Value="FromCluster" />
+      <Parameter ID="PrimaryHostName" Value="pri-br-automation" />
+      <Parameter ID="PrimaryInternetAddress" Value="192.168.15.211" />
+      <Parameter ID="SecondaryHostName" Value="sec-br-automation" />
+      <Parameter ID="SecondaryInternetAddress" Value="192.168.15.212" />
+      <Parameter ID="RedundantInaSelector" Value="RedundantIna" />
+      <Parameter ID="InaCluster" Value="1" />
+      <Parameter ID="InaCNodeNumber" Value="10" />
+      <Parameter ID="ActivateModbus" Value="1" />
+      <Parameter ID="NumSlaves" Value="-1" />
+      <Parameter ID="NumAllBlocks" Value="-1" />
+      <Parameter ID="MemSizeIn" Value="-1" />
+      <Parameter ID="MemSizeOut" Value="-1" />
+    </Connector>
+    <Connector Name="IF3">
+      <Parameter ID="Operation" Value="EthOnly" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="1" />
+      <Parameter ID="EthernetMode" Value="DHCP Client" />
+      <Parameter ID="PrimaryHostName" Value="pri-br-automation" />
+      <Parameter ID="SecondaryHostName" Value="sec-br-automation" />
+      <Parameter ID="RedundantInaSelector" Value="RedundantIna" />
+    </Connector>
+    <Parameter ID="ConfigurationID" Value="OI551_X20CP3584" />
+    <Parameter ID="UserPartitionSize" Value="0" />
+    <Parameter ID="RemanentGlobalPvSize" Value="15000" />
+    <Parameter ID="TimerDeviceType" Value="RIF" />
+    <Parameter ID="Cyclic8Duration" Value="100000" />
+    <Group ID="FileDevice1" />
+    <Parameter ID="FileDeviceName1" Value="USER" />
+    <Parameter ID="FileDevicePath1" Value="USER_PATH" />
+    <Parameter ID="ActivateSntpServer" Value="1" />
+    <Parameter ID="ActivateSntp" Value="1" />
+    <Parameter ID="SntpcServAddr1" Value="192.168.15.58" />
+    <Parameter ID="SntpcServAddr2" Value="192.168.15.58" />
+    <Parameter ID="SntpcServAddr3" Value="192.168.15.58" />
+    <Parameter ID="SntpcServAddr4" Value="192.168.15.58" />
+    <Parameter ID="EthernetDefaultGateway" Value="192.168.15.254" />
+    <Parameter ID="ActivateOpcUa" Value="1" />
+    <Parameter ID="OpcUa_AuthenticationSecurityPolicy_EnableNone" Value="1" />
+    <Parameter ID="OpcUa_AuthenticationSecurityPolicy_EnableBasic128Rsa15" Value="1" />
+    <Parameter ID="OpcUa_Limits_MaxReferencesToReturn" Value="100000" />
+    <Parameter ID="OpcUa_Limits_MonitoredItemsPerSubscription" Value="100000" />
+    <Parameter ID="OpcUaMaxSubsItemQueueSize" Value="1000" />
+    <Parameter ID="OpcUaInformationModels_PV_Version" Value="2" />
+    <Parameter ID="ActivateRedundancy" Value="1" />
+  </Module>
+  <Module Name="X20IF10X0" Type="X20IF10X0" Version="1.3.0.0">
+    <Connection Connector="IF1" TargetModule="X20IF10X0 - redundant" TargetConnector="IF1" TargetRedundancyModule="True" />
+    <Connection Connector="SS" TargetModule="X20CP3586" TargetConnector="SS1" />
+  </Module>
+  <Module Name="X20IF2181-2" Type="X20IF2181-2" Version="1.9.0.0">
+    <Connection Connector="SS" TargetModule="X20CP3586" TargetConnector="SS2" />
+    <Connector Name="IF1">
+      <Parameter ID="DNAConfiguration" Value="manual" />
+      <Parameter ID="EplInterfaceRedundant" Value="1" />
+      <Parameter ID="Mode" Value="RMN" />
+      <Parameter ID="EplEthInterfaceRedundant" Value="1" />
+      <Parameter ID="EthernetMode" Value="Manual" />
+      <Parameter ID="RedundantInaSelector" Value="RedundantIna" />
+    </Connector>
+  </Module>
+</Hardware>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="DCS4_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="LCV4_1" AutomaticEnable="True" />
+        <Variable Name="LCV4_2" AutomaticEnable="True" />
+        <Variable Name="PAZ" AutomaticEnable="True" />
+        <Variable Name="PCV4_1" AutomaticEnable="True" />
+        <Variable Name="PCV4_2" AutomaticEnable="True" />
+        <Variable Name="PostGAS" AutomaticEnable="True" />
+        <Variable Name="UVP_1" AutomaticEnable="True" />
+        <Variable Name="XV01" AutomaticEnable="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

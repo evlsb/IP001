@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\arconfig.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\x20cp0482\iomap.iom" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs13_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\dcs13_1\x20cp0482\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs13_1\x20cp0482\asfw.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

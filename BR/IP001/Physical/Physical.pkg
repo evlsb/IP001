@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.7.3.93 SP?>
+<Physical xmlns="http://br-automation.co.at/AS/Physical">
+  <Objects>
+    <Object Type="Configuration" Description="Блок манифольда">DCS2_2</Object>
+    <Object Type="Configuration" Description="Блок ВС-2">DCS4_1</Object>
+    <Object Type="Configuration" Description="Блок С-1">DCS5_1</Object>
+    <Object Type="Configuration" Description="Блок ПТГ">DCS9_1</Object>
+    <Object Type="Configuration" Description="Блок БЕН-1">DCS13_1</Object>
+    <Object Type="Configuration" Description="Блок БЕВ-1">DCS15_1</Object>
+    <Object Type="Configuration" Description="Блок САУ">DCS18_1</Object>
+    <Object Type="Configuration" Description="Блок Е-1/1">DCS31_1</Object>
+    <Object Type="Configuration" Description="Блок Е-1/2">DCS31_2</Object>
+    <Object Type="Configuration" Description="Блок Е-1/3">DCS31_3</Object>
+    <Object Type="Configuration" Description="Блок Е-1/4">DCS31_4</Object>
+    <Object Type="Configuration" Description="Блок СИКГ-2">DCS34_1</Object>
+    <Object Type="Configuration" Description="Блок СИКГ-3/СИКГ-4">DCS35_1</Object>
+    <Object Type="Configuration" Description="Блок ГФУ">DCS36_1</Object>
+    <Object Type="Configuration" Description="Блок СИКВ-1">DCS37_1</Object>
+    <Object Type="Configuration" Description="Блок СИКГ-1/СИКГ-5">DCS39_1</Object>
+    <Object Type="Configuration" Description="Блок СИКГ-6">DCS40_1</Object>
+    <Object Type="Configuration" Description="Блок управления электрообогревом">DCS45_1</Object>
+    <Object Type="Configuration">stend</Object>
+    <Object Type="Configuration">Config1</Object>
+  </Objects>
+</Physical>

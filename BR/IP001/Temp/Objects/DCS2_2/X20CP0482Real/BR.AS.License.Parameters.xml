@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Parameters>
+  <Connection>
+    <DeviceParameters>/IF=tcpip /LOPO=11159 /SA=1</DeviceParameters>
+    <ConnectionParameters>/COMT=2500 /AM=* /DAIP=192.168.50.10 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
+  </Connection>
+  <AsProject>
+    <ApjFullFileName>C:\Users\User\Desktop\IP001\IP001.apj</ApjFullFileName>
+    <ProjectName>IP001</ProjectName>
+    <ActiveConfigurationName>DCS2_2</ActiveConfigurationName>
+    <LicenseDataFolder>C:\Users\User\Desktop\IP001\Temp\Objects\DCS2_2\X20CP0482</LicenseDataFolder>
+  </AsProject>
+  <General>
+    <DeleteParameterFile>false</DeleteParameterFile>
+  </General>
+</Parameters>

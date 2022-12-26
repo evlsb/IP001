@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\opcuamap\opcuamap.uar.gz">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\dcs2_2\variables.var" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\main.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\libip001.fun" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\main.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\_bur_pvdef.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\_bur_pvdef.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\dcs2_2.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2\dcs2_2.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_biffi.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\libip001.fun" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_biffi.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_biffi.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\level_insol.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\libip001.fun" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\level_insol.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\level_insol.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\libip001.fun" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valve_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valves_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\libip001.fun" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valves_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valves_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valves_biffi.st.c">
+    <BuildReason>Target "valves_biffi.st.c" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\valves_biffi.st.o">
+    <BuildReason>Target "valves_biffi.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\a.out">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\libip001.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\libip001\libip001.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\dcs2_2\x20cp0482\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\dcs2_2.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

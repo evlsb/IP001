@@ -1,0 +1,16 @@
+VAR_CONFIG
+	::DCS31_4:DI[1,1].In AT %IX."X20DI6371".DigitalInput01;
+	::DCS31_4:DI[1,2].In AT %IX."X20DI6371".DigitalInput02;
+	::DCS31_4:DI[1,3].In AT %IX."X20DI6371".DigitalInput03;
+	::DCS31_4:DI[1,4].In AT %IX."X20DI6371".DigitalInput04;
+	::DCS31_4:DO_[1,1].Out AT %QX."X20DO4322".DigitalOutput01;
+	::DCS31_4:DO_[1,2].Out AT %QX."X20DO4322".DigitalOutput02;
+	::DCS31_4:DO_[1,3].Out AT %QX."X20DO4322".DigitalOutput03;
+	::DCS31_4:DO_[1,4].Out AT %QX."X20DO4322".DigitalOutput04;
+	::DCS31_4:AI[1,1].RAW AT %IW."X20AI4322".AnalogInput01;
+	::DCS31_4:AI[1,2].RAW AT %IW."X20AI4322".AnalogInput02;
+	::DCS31_4:AI[1,3].RAW AT %IW."X20AI4322".AnalogInput03;
+	::DCS31_4:AI[1,4].RAW AT %IW."X20AI4322".AnalogInput04;
+	::DCS31_4:DI[1,5].In AT %IX."X20DI6371".DigitalInput05;
+	::DCS31_4:DI[1,6].In AT %IX."X20DI6371".DigitalInput06;
+END_VAR

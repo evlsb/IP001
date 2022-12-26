@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Lib489.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/DCS35_1/Variables.var

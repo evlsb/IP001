@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/lib489/uvp_rtu.st.o:
+$(AS_CPU_PATH)/lib489/uvp_rtu.st.c
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plc.h
+$(AS_CPU_PATH)/lib489/uvp_rtust.h

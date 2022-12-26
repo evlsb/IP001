@@ -1,0 +1,370 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\arconfig.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\opcuamap\opcuamap.uar.gz">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\x20cp0482\connectivity\opcua\opcuamap.uad" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\sysconf.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\asfw.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\main.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\dcs31_1\main.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\main.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\main.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\_bur_pvdef.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\_bur_pvdef.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\dcs31_1.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\dcs31_1\dcs31_1.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\ashwac.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\ashwd.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\hardware.hw" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpostgassing.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fpostgassing.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpostgassing.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpostgassing.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fvalve.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fvalve.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fvalve.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fvalve.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fai.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fai.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fai.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fai.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdi.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fdi.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdi.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdi.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdo.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fdo.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdo.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdo.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fao.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fao.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fao.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fao.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpidreg_r.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fpidreg_r.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpidreg_r.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpidreg_r.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmotor.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fmotor.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmotor.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmotor.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportvalve.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\passportvalve.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportvalve.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportvalve.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportai.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\passportai.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportai.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\passportai.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdiskrreg_r.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fdiskrreg_r.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdiskrreg_r.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fdiskrreg_r.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_tcp.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\uvp_tcp.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_tcp.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_tcp.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmhcounter.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fmhcounter.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmhcounter.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fmhcounter.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\ftorch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\ftorch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\ftorch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\ftorch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\abak_tcp.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\abak_tcp.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\abak_tcp.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\abak_tcp.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fswitch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fswitch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fswitch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fswitch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fcmdcom.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fcmdcom.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fcmdcom.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fcmdcom.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fopencom.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fopencom.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fopencom.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fopencom.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fclosecom.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fclosecom.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fclosecom.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fclosecom.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\falarm.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\falarm.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\falarm.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\falarm.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_rtu.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\uvp_rtu.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_rtu.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\uvp_rtu.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadholdingregs.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\mbreadholdingregs.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadholdingregs.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadholdingregs.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadinputregs.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\mbreadinputregs.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadinputregs.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbreadinputregs.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritesinglereg.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\mbwritesinglereg.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritesinglereg.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritesinglereg.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritemultipleregs.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\mbwritemultipleregs.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritemultipleregs.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\mbwritemultipleregs.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\atv_control.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\atv_control.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\atv_control.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\atv_control.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fauma_mb.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\lib489\fauma_mb.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fauma_mb.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fauma_mb.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\fpostgassing.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\lib489.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\lib489\lib489.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_biffi.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\valve_biffi.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_biffi.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_biffi.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\level_insol.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\level_insol.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\level_insol.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\level_insol.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\valve_xch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valves_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\valves_xch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valves_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valves_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\valve_biffi.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\libip001.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\libip001\libip001.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\iomap.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\x20cp0482\iomap.iom" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\tcdata\tcdata.s18d">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\tcdata\tcdata.imx" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\tcdata.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\tcdata\tcdata.s18d" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\mtbasics.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mtbasics\sg4\arm\mtbasics.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\brsystem.br">
+    <BuildReason>Prerequiste "c:\brautomation\as\system\c0472\sg4\arm\brsystem.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\mttypes.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\mttypes\sg4\arm\mttypes.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\role.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\x20cp0482\accessandsecurity\userrolesystem\role.role" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\user.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\x20cp0482\accessandsecurity\userrolesystem\user.user" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs31_1\x20cp0482\fwrules.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\dcs31_1\x20cp0482\accessandsecurity\firewall\rules.firewallrules" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\dcs31_1\x20cp0482\transfer.lst">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

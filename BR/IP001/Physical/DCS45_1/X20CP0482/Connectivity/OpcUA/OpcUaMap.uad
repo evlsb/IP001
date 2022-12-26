@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="DCS45_1">
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="KM" EnableArrayElements="True" />
+        <Variable Name="AI" EnableArrayElements="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/lib489/fdiskrreg_r.st.o:
+$(AS_CPU_PATH)/lib489/fdiskrreg_r.st.c
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_CPU_PATH)/lib489/fdiskrreg_rst.h

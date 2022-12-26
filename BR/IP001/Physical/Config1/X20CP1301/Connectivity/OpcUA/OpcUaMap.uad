@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="DCS2_2">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS4_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="LCV4_1" AutomaticEnable="True">
+          <Variable Name="enable" />
+          <Variable Name="invert" />
+          <Variable Name="mode" />
+          <Variable Name="state" />
+          <Variable Name="X_set" />
+          <Variable Name="X" />
+          <Variable Name="Y" />
+          <Variable Name="Y_min" />
+          <Variable Name="Y_max" />
+          <Variable Name="Y_man" />
+          <Variable Name="Gain" />
+          <Variable Name="IntegrationTime" />
+          <Variable Name="DerivativeTime" />
+          <Variable Name="FilterTime" />
+          <Variable Name="AlOpen" />
+          <Variable Name="AlClose" />
+          <Variable Name="status" />
+          <Variable Name="Y_out" />
+          <Variable Name="MTBasicsPID_0">
+            <Variable Name="PIDParameters">
+              <Variable Name="Gain" />
+              <Variable Name="IntegrationTime" />
+              <Variable Name="DerivativeTime" />
+              <Variable Name="FilterTime" />
+            </Variable>
+            <Variable Name="Enable" />
+            <Variable Name="MinOut" />
+            <Variable Name="MaxOut" />
+            <Variable Name="Invert" />
+            <Variable Name="Update" />
+            <Variable Name="SetValue" />
+            <Variable Name="ActValue" />
+            <Variable Name="IntegrationPartPresetValue" />
+            <Variable Name="SetIntegrationPart" />
+            <Variable Name="HoldOut" />
+            <Variable Name="TrackingValue" />
+            <Variable Name="EnableTracking" />
+            <Variable Name="HoldIntegration" />
+            <Variable Name="Busy" />
+            <Variable Name="Active" />
+            <Variable Name="Error" />
+            <Variable Name="StatusID" />
+            <Variable Name="UpdateDone" />
+            <Variable Name="Out" />
+            <Variable Name="ControlError" />
+            <Variable Name="ProportionalPart" />
+            <Variable Name="IntegrationPart" />
+            <Variable Name="DerivativePart" />
+            <Variable Name="TrackingActive" />
+            <Variable Name="IntegrationStatus" />
+            <Variable Name="SystemReference" />
+          </Variable>
+        </Variable>
+        <Variable Name="LCV4_2" AutomaticEnable="True">
+          <Variable Name="enable" />
+          <Variable Name="invert" />
+          <Variable Name="mode" />
+          <Variable Name="state" />
+          <Variable Name="X_set" />
+          <Variable Name="X" />
+          <Variable Name="Y" />
+          <Variable Name="Y_min" />
+          <Variable Name="Y_max" />
+          <Variable Name="Y_man" />
+          <Variable Name="Gain" />
+          <Variable Name="IntegrationTime" />
+          <Variable Name="DerivativeTime" />
+          <Variable Name="FilterTime" />
+          <Variable Name="AlOpen" />
+          <Variable Name="AlClose" />
+          <Variable Name="status" />
+          <Variable Name="Y_out" />
+          <Variable Name="MTBasicsPID_0">
+            <Variable Name="MinOut" />
+            <Variable Name="MaxOut" />
+            <Variable Name="Invert" />
+            <Variable Name="Update" />
+            <Variable Name="SetValue" />
+            <Variable Name="ActValue" />
+            <Variable Name="IntegrationPartPresetValue" />
+            <Variable Name="SetIntegrationPart" />
+            <Variable Name="HoldOut" />
+            <Variable Name="TrackingValue" />
+            <Variable Name="EnableTracking" />
+            <Variable Name="HoldIntegration" />
+            <Variable Name="Busy" />
+            <Variable Name="Active" />
+            <Variable Name="Error" />
+            <Variable Name="StatusID" />
+            <Variable Name="UpdateDone" />
+            <Variable Name="Out" />
+            <Variable Name="ControlError" />
+            <Variable Name="ProportionalPart" />
+            <Variable Name="IntegrationPart" />
+            <Variable Name="DerivativePart" />
+            <Variable Name="TrackingActive" />
+            <Variable Name="IntegrationStatus" />
+            <Variable Name="SystemReference" />
+            <Variable Name="Enable" />
+            <Variable Name="PIDParameters">
+              <Variable Name="Gain" />
+              <Variable Name="IntegrationTime" />
+              <Variable Name="DerivativeTime" />
+              <Variable Name="FilterTime" />
+            </Variable>
+          </Variable>
+        </Variable>
+        <Variable Name="LT01">
+          <Variable Name="pDevice" />
+        </Variable>
+        <Variable Name="PAZ">
+          <Variable Name="IN" />
+          <Variable Name="EN" />
+          <Variable Name="Ack" />
+          <Variable Name="Delay" />
+          <Variable Name="OUT_int" />
+          <Variable Name="OUT" />
+          <Variable Name="Result" />
+        </Variable>
+        <Variable Name="PCV4_1">
+          <Variable Name="enable" />
+          <Variable Name="invert" />
+          <Variable Name="mode" />
+          <Variable Name="state" />
+          <Variable Name="X_set" />
+          <Variable Name="X" />
+          <Variable Name="Y" />
+          <Variable Name="Y_min" />
+          <Variable Name="Y_max" />
+          <Variable Name="Y_man" />
+          <Variable Name="Gain" />
+          <Variable Name="IntegrationTime" />
+          <Variable Name="DerivativeTime" />
+          <Variable Name="FilterTime" />
+          <Variable Name="AlOpen" />
+          <Variable Name="AlClose" />
+          <Variable Name="status" />
+          <Variable Name="Y_out" />
+        </Variable>
+        <Variable Name="PCV4_2">
+          <Variable Name="enable" />
+          <Variable Name="invert" />
+          <Variable Name="mode" />
+          <Variable Name="state" />
+          <Variable Name="X_set" />
+          <Variable Name="X" />
+          <Variable Name="Y" />
+          <Variable Name="Y_min" />
+          <Variable Name="Y_max" />
+          <Variable Name="Y_man" />
+          <Variable Name="Gain" />
+          <Variable Name="IntegrationTime" />
+          <Variable Name="DerivativeTime" />
+          <Variable Name="FilterTime" />
+          <Variable Name="AlOpen" />
+          <Variable Name="AlClose" />
+          <Variable Name="status" />
+          <Variable Name="Y_out" />
+        </Variable>
+        <Variable Name="PostGAS" />
+        <Variable Name="UVP_1">
+          <Variable Name="pPort" />
+          <Variable Name="status" />
+          <Variable Name="state" />
+          <Variable Name="step" />
+          <Variable Name="req_3x">
+            <Variable Name="enable" />
+            <Variable Name="pStation" />
+            <Variable Name="startAddress" />
+            <Variable Name="nrRegisters" />
+            <Variable Name="pData" />
+            <Variable Name="dataSize" />
+            <Variable Name="status" />
+            <Variable Name="i_queryID" />
+            <Variable Name="i_hInstance" />
+            <Variable Name="i_hMbCons" />
+            <Variable Name="i_state" />
+          </Variable>
+          <Variable Name="req_4x">
+            <Variable Name="enable" />
+            <Variable Name="pStation" />
+            <Variable Name="startAddress" />
+            <Variable Name="nrRegisters" />
+            <Variable Name="pData" />
+            <Variable Name="dataSize" />
+            <Variable Name="status" />
+            <Variable Name="i_queryID" />
+            <Variable Name="i_hInstance" />
+            <Variable Name="i_hMbCons" />
+            <Variable Name="i_state" />
+          </Variable>
+          <Variable Name="req_6x">
+            <Variable Name="enable" />
+            <Variable Name="pStation" />
+            <Variable Name="startAddress" />
+            <Variable Name="value" />
+            <Variable Name="status" />
+            <Variable Name="i_queryID" />
+            <Variable Name="i_hInstance" />
+            <Variable Name="i_hMbCons" />
+            <Variable Name="i_state" />
+          </Variable>
+          <Variable Name="req_16x">
+            <Variable Name="enable" />
+            <Variable Name="pStation" />
+            <Variable Name="startAddress" />
+            <Variable Name="nrRegisters" />
+            <Variable Name="pData" />
+            <Variable Name="dataSize" />
+            <Variable Name="status" />
+            <Variable Name="i_queryID" />
+            <Variable Name="i_hInstance" />
+            <Variable Name="i_hMbCons" />
+            <Variable Name="i_state" />
+          </Variable>
+          <Variable Name="UVP_Data">
+            <Variable Name="Time">
+              <Variable Name="Day" />
+              <Variable Name="Month" />
+              <Variable Name="Year" />
+              <Variable Name="Hour" />
+              <Variable Name="Min" />
+              <Variable Name="Sec" />
+              <Variable Name="TPs" />
+            </Variable>
+            <Variable Name="LineCurrent" />
+            <Variable Name="Prev_hour" />
+            <Variable Name="Prev_day" />
+            <Variable Name="NTP">
+              <Variable Name="IPAddr1" />
+              <Variable Name="IPAddr2" />
+              <Variable Name="cmd" />
+              <Variable Name="IpAddress1" />
+              <Variable Name="IpAddress2" />
+              <Variable Name="IpAddress3" />
+              <Variable Name="IpAddress4" />
+            </Variable>
+            <Variable Name="MR_113">
+              <Variable Name="MolarMass" />
+              <Variable Name="AbsRelate" />
+              <Variable Name="CH4" />
+              <Variable Name="C2H6" />
+              <Variable Name="C3H8" />
+              <Variable Name="nC4H10" />
+              <Variable Name="iC4H10" />
+              <Variable Name="nC5H12" />
+              <Variable Name="N2" />
+              <Variable Name="CO2" />
+              <Variable Name="H2O" />
+              <Variable Name="H2S" />
+              <Variable Name="C6H14" />
+              <Variable Name="C7H16" />
+              <Variable Name="O2" />
+              <Variable Name="iC5H12" />
+              <Variable Name="AbsH2O" />
+            </Variable>
+            <Variable Name="MR_113_new">
+              <Variable Name="MolarMass" />
+              <Variable Name="AbsRelate" />
+              <Variable Name="CH4" />
+              <Variable Name="C2H6" />
+              <Variable Name="C3H8" />
+              <Variable Name="nC4H10" />
+              <Variable Name="iC4H10" />
+              <Variable Name="nC5H12" />
+              <Variable Name="N2" />
+              <Variable Name="CO2" />
+              <Variable Name="H2O" />
+              <Variable Name="H2S" />
+              <Variable Name="C6H14" />
+              <Variable Name="C7H16" />
+              <Variable Name="O2" />
+              <Variable Name="iC5H12" />
+              <Variable Name="AbsH2O" />
+            </Variable>
+            <Variable Name="Byte_order" />
+            <Variable Name="Byte_order_new" />
+            <Variable Name="synchrooo" />
+            <Variable Name="DeltaTime" />
+            <Variable Name="read_gas_comp" />
+            <Variable Name="write_gas_comp" />
+          </Variable>
+          <Variable Name="curTP" />
+          <Variable Name="Timeout_T" />
+        </Variable>
+        <Variable Name="XV01" AutomaticEnable="True">
+          <Variable Name="pDevice" />
+          <Variable Name="r0" />
+          <Variable Name="Set_Position" />
+          <Variable Name="Failures" />
+          <Variable Name="r1" />
+          <Variable Name="Get_Position" />
+          <Variable Name="MBMOpen_0" AutomaticEnable="True">
+            <Variable Name="enable" />
+            <Variable Name="pDevice" />
+            <Variable Name="pMode" />
+            <Variable Name="pConfig" />
+            <Variable Name="timeout" />
+            <Variable Name="ascii" />
+            <Variable Name="status" />
+            <Variable Name="ident" />
+          </Variable>
+        </Variable>
+      </Task>
+      <Task Name="DCS5_1" />
+      <Task Name="DCS9_1" />
+      <Task Name="DCS13_1" />
+      <Task Name="DCS15_1" />
+    </Module>
+  </DefaultView>
+</OpcUaSource>

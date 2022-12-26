@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tracepoints>
+  <Tracepoint>
+    <Enabled>true</Enabled>
+    <File>Logical/Libraries/LibIP001/Valve_Biffi.st</File>
+    <Line>11</Line>
+    <Condition></Condition>
+    <Task>LibIP001</Task>
+  </Tracepoint>
+</Tracepoints>

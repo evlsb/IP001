@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\arconfig.br">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\dvframe.br">
+    <BuildReason>Prerequiste "c:\brautomation\as\system\b0492\sg4\ia32\dvframe.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\brsystem.br">
+    <BuildReason>Prerequiste "c:\brautomation\as\system\b0492\sg4\ia32\brsystem.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\sys_lib.br">
+    <BuildReason>Prerequiste "c:\brautomation\as\system\b0492\sg4\ia32\sys_lib.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\asmbtcp.br">
+    <BuildReason>Prerequiste "c:\brautomation\as\system\b0492\sg4\ia32\asmbtcp.br" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\asrrad.br">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\stend\x20cp3586\transfer.lst">
+    <BuildReason>ExternalCommand line differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\stend\x20cp3586\asrradcomplete.stat.xml">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

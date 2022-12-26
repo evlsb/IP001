@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+  <Element ID="Minimum calculated cycle time." Type="fbtc">
+    <Group ID="X2X[0]">
+      <Property ID="NumberOfStations" Value="7" />
+      <Property ID="TotalCableLength" Value="0" />
+      <Property ID="InputDataSize" Value="30" />
+      <Property ID="OutputDataSize" Value="4" />
+      <Property ID="Address" Value="IF6" />
+      <Property ID="CycleTime" Value="227" />
+      <Property ID="AdjustedCycleTime" Value="4000" />
+    </Group>
+  </Element>
+</Configuration>

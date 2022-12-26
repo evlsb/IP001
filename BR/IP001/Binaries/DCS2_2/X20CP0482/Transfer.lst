@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=3.0?>
+<Transfer xmlns="http://br-automation.co.at/AS/Transfer">
+  <OperatingSystem Version="B4.92"/>
+  <Hardware Target="SG4"/>
+  <Operation Delete="DCS2_2.br"/>
+  <Operation Delete="Lib489.br"/>
+  <Operation Delete="LibIP001.br"/>
+  <Operation Delete="asieccon.br"/>
+  <Operation Delete="astime.br"/>
+  <Operation Delete="DRV_mbus.br"/>
+  <Operation Delete="dvframe.br"/>
+  <Operation Delete="DataObj.br"/>
+  <Operation Delete="MTBasics.br"/>
+  <Operation Delete="brsystem.br"/>
+  <Operation Delete="sys_lib.br"/>
+  <Operation Delete="AsMbTCP.br"/>
+  <Operation Download="ashwd.br" Memory="SystemROM"/>
+  <Operation Download="asfw.br" Memory="SystemROM"/>
+  <Operation Download="arconfig.br" Memory="SystemROM"/>
+  <Operation Download="sysconf.br" Memory="SystemROM"/>
+  <Operation Restart="warm"/>
+  <Operation Download="AsBrStr.br" Memory="UserROM"/>
+  <Operation Download="asstring.br" Memory="UserROM"/>
+  <Operation Download="runtime.br" Memory="UserROM"/>
+  <Operation Download="AsMbTCP.br" Memory="UserROM"/>
+  <Operation Download="standard.br" Memory="UserROM"/>
+  <Operation Download="MTTypes.br" Memory="UserROM"/>
+  <Operation Download="sys_lib.br" Memory="UserROM"/>
+  <Operation Download="brsystem.br" Memory="UserROM"/>
+  <Operation Download="MTBasics.br" Memory="UserROM"/>
+  <Operation Download="DataObj.br" Memory="UserROM"/>
+  <Operation Download="dvframe.br" Memory="UserROM"/>
+  <Operation Download="DRV_mbus.br" Memory="UserROM"/>
+  <Operation Download="astime.br" Memory="UserROM"/>
+  <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="LibIP001.br" Memory="UserROM"/>
+  <Operation Download="Lib489.br" Memory="UserROM"/>
+  <Operation Download="ashwac.br" Memory="UserROM"/>
+  <Operation Download="FWRules.br" Memory="UserROM"/>
+  <Operation Download="iomap.br" Memory="UserROM"/>
+  <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="TCData.br" Memory="SystemROM"/>
+  <Operation Download="udbdef.br" Memory="UserROM"/>
+  <Operation Download="User.br" Memory="UserROM"/>
+  <Operation Download="DCS2_2.br" Memory="UserROM"/>
+</Transfer>

@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/DCS31_2/Variables.var
+$(AS_PROJECT_PATH)/Physical/DCS31_2/X20CP0482/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/LibIP001.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DRV_mbus/DRV_mbus.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Lib489.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun

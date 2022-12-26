@@ -1,0 +1,2 @@
+IP001 | DCS5_1 | Build
+mingw32-make.exe, Error = False. Call = mingw32-make.exe  -r -f "C:\Users\User\Desktop\IP001\Temp\Objects\DCS5_1\X20CP1584\#cpu_tp.mak" -k

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="B4.82">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="DCS2_2">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="XV01" AutomaticEnable="True" />
+        <Variable Name="PAZ" AutomaticEnable="True" />
+        <Variable Name="PostGAS" AutomaticEnable="True" />
+      </Task>
+      <Task Name="DCS4_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="LCV4_1" AutomaticEnable="True" />
+        <Variable Name="LCV4_2" AutomaticEnable="True" />
+        <Variable Name="PCV4_1" AutomaticEnable="True" />
+        <Variable Name="PCV4_2" AutomaticEnable="True" />
+        <Variable Name="PostGAS" AutomaticEnable="True" />
+        <Variable Name="UVP_1" AutomaticEnable="True" />
+        <Variable Name="XV01" AutomaticEnable="True" />
+      </Task>
+      <Task Name="DCS5_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="PostGAS" AutomaticEnable="True" />
+      </Task>
+      <Task Name="DCS9_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS13_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS15_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS18_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS31_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS31_2">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS31_3">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS31_4">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS34_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS35_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS36_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS37_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS39_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS40_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+      <Task Name="DCS45_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

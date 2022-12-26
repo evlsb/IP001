@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OpcUaSource FileVersion="7" ArVersion="C4.72">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <Task Name="DCS31_1">
+        <Variable Name="AI" EnableArrayElements="True" />
+        <Variable Name="AO" EnableArrayElements="True" />
+        <Variable Name="DI" EnableArrayElements="True" />
+        <Variable Name="DO_" EnableArrayElements="True" />
+        <Variable Name="PAZ">
+          <Variable Name="IN" />
+          <Variable Name="EN" />
+          <Variable Name="Ack" />
+          <Variable Name="Delay" />
+          <Variable Name="OUT_int" />
+          <Variable Name="OUT" />
+          <Variable Name="Result" />
+        </Variable>
+        <Variable Name="PostGAS">
+          <Variable Name="StatusAI" />
+          <Variable Name="HS01" />
+          <Variable Name="HS02" />
+          <Variable Name="HL01" />
+          <Variable Name="HL02" />
+          <Variable Name="HA01" />
+          <Variable Name="Level1" />
+          <Variable Name="Level1_10min" />
+          <Variable Name="Level2" />
+          <Variable Name="HS01_Old" />
+          <Variable Name="Level1Old" />
+          <Variable Name="Level2Old" />
+          <Variable Name="Sound" />
+        </Variable>
+        <Variable Name="XV01">
+          <Variable Name="pDevice" />
+          <Variable Name="r0_2" />
+          <Variable Name="r0_1" />
+          <Variable Name="Set_Position_2" />
+          <Variable Name="Set_Position_1" />
+          <Variable Name="Failures_2" />
+          <Variable Name="Failures_1" />
+          <Variable Name="r1_2" />
+          <Variable Name="r1_1" />
+          <Variable Name="Get_Position_2" />
+          <Variable Name="Get_Position_1" />
+          <Variable Name="MB_2" />
+          <Variable Name="MB_1" />
+          <Variable Name="step" />
+          <Variable Name="cmd_buf_2" />
+          <Variable Name="cmd_buf_1" />
+        </Variable>
+      </Task>
+    </Module>
+  </DefaultView>
+</OpcUaSource>

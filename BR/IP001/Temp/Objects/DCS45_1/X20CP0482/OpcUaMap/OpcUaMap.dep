@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/DCS45_1/Variables.var
+$(AS_PROJECT_PATH)/Physical/DCS45_1/X20CP0482/Cpu.sw
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Lib489.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun

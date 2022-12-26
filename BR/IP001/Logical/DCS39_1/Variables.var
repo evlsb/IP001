@@ -1,0 +1,22 @@
+VAR CONSTANT
+	def_AI_MC : USINT := 1; (*Количество модулей AI*)
+	def_AI_WC : USINT := 8; (*Количество входов в AI*)
+	def_AO_MC : USINT := 1; (*Количество модулей AO*)
+	def_AO_WC : USINT := 2; (*Количество входов в AO*)
+	def_DI_MC : USINT := 1; (*Количество модулей DI*)
+	def_DI_WC : USINT := 8; (*Количество входов в DI*)
+	def_DO_MC : USINT := 1; (*Количество модулей DO*)
+	def_DO_WC : USINT := 6; (*Количество входов в DO*)
+END_VAR
+VAR
+	AI : ARRAY[1..def_AI_MC,1..def_AI_WC] OF FAI;
+	AO : ARRAY[1..def_AO_MC,1..def_AO_WC] OF FAO;
+	DI : ARRAY[1..def_DI_MC,1..def_DI_WC] OF FDI;
+	DO_ : ARRAY[1..def_DO_MC,1..def_DO_WC] OF FDO;
+	i : USINT;
+	j : USINT;
+	PostGAS : FPostGassing;
+	PAZ : FAlarm;
+	PCV39_1 : FPIDreg_r;
+	UVP_1 : UVP_TCP;
+END_VAR

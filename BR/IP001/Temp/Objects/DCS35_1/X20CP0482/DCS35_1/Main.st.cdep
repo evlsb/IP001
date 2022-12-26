@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/dcs35_1/main.st.o:
+$(AS_CPU_PATH)/dcs35_1/main.st.c
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/arm-elf/include/bur/plc.h
+$(AS_CPU_PATH)/dcs35_1/mainst.h

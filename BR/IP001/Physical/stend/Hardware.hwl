@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="stend.Hardware.hw" LastWriteTime="08/15/2022 16:39:36" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20CP3586" Type="X20CP3586" X="94" Y="43" />
+    <Module Name="X20IF2181-2" Type="X20IF2181-2" X="231" Y="43" />
+    <Module Name="X20IF10X0" Type="X20IF10X0" X="206" Y="43" />
+    <Module Name="X20CP3586 - redundant" Type="X20CP3586" X="344" Y="43" />
+    <Module Name="X20IF2181-2 - redundant" Type="X20IF2181-2" X="481" Y="43" />
+    <Module Name="X20IF10X0 - redundant" Type="X20IF10X0" X="456" Y="43" />
+    <Module Name="ModbusTcp_any" Type="ModbusTcp_any" X="294" Y="192" />
+  </Modules>
+  <Links>
+    <Link From="ModbusTcp_any" To="X20CP3586" FromPort="ETH1" ToPort="IF2" IsRoutedByUser="False">
+      <Point X="126" Y="130" />
+      <Point X="126" Y="130" />
+      <Point X="126" Y="143" />
+      <Point X="126" Y="255" />
+      <Point X="328" Y="255" />
+      <Point X="328" Y="243" />
+      <Point X="328" Y="236" />
+      <Point X="328" Y="236" />
+    </Link>
+    <Link From="X20IF10X0" To="X20IF10X0 - redundant" FromPort="IF1" ToPort="IF1" IsRoutedByUser="False">
+      <Point X="219" Y="126" />
+      <Point X="219" Y="126" />
+      <Point X="219" Y="143" />
+      <Point X="219" Y="155" />
+      <Point X="469" Y="155" />
+      <Point X="469" Y="143" />
+      <Point X="469" Y="126" />
+      <Point X="469" Y="126" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

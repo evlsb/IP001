@@ -1,0 +1,8 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Lib489.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/MTTypes/MTTypes.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MTBasics/MTBasics.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/MTBasics/MTBasics.fun
+$(AS_PROJECT_PATH)/Logical/DCS39_1/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsMbTCP/AsMbTCP.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Lib489/Types.typ

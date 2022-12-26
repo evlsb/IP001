@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <TimeStamps>
+    <TimeStamp LogicalPath="DCS31_3.Hardware.hw" LastWriteTime="07/23/2021 15:12:04" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="X20BB52" Type="X20BB52" X="100" Y="100" />
+    <Module Name="X20BM11" Type="X20BM11" X="138" Y="100" />
+    <Module Name="X20CS1030" Type="X20CS1030" X="138" Y="100" />
+    <Module Name="X20TB12a" Type="X20TB12" X="138" Y="127" />
+    <Module Name="X20BM11a" Type="X20BM11" X="151" Y="100" />
+    <Module Name="X20AI4322" Type="X20AI4322" X="151" Y="100" />
+    <Module Name="X20TB12d" Type="X20TB12" X="151" Y="127" />
+    <Module Name="X20BM11b" Type="X20BM11" X="164" Y="100" />
+    <Module Name="X20DI6371" Type="X20DI6371" X="164" Y="100" />
+    <Module Name="X20TB12b" Type="X20TB12" X="164" Y="127" />
+    <Module Name="X20BM11c" Type="X20BM11" X="177" Y="100" />
+    <Module Name="X20DO4322" Type="X20DO4322" X="177" Y="100" />
+    <Module Name="X20TB12c" Type="X20TB12" X="177" Y="127" />
+    <Module Name="X20PS9600" Type="X20PS9600" X="125" Y="100" />
+    <Module Name="X20TB12" Type="X20TB12" X="125" Y="127" />
+    <Module Name="X20CP0482" Type="X20CP0482" X="100" Y="100" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

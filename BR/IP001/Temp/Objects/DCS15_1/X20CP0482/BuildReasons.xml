@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\valves_xch.st.c">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\libraries\libip001\valves_xch.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\valves_xch.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\valves_xch.st.c" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\valves_xch.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\libip001.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001\libip001.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\dcs15_1\x20cp0482\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\dcs15_1\x20cp0482\libip001.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

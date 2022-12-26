@@ -1,0 +1,219 @@
+<?xml version="1.0" ?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="X20CP3586">
+    <Parameter ID="HardwareModuleName" Value="X20CP3586" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="1" Type="UDINT" />
+    <Parameter ID="SimulationModeOpcUa" Value="on" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+    <Parameter ID="TemperatureCPUType" Value="UINT" />
+    <Parameter ID="TemperatureENVType" Value="UINT" />
+  </Module>
+  <Module ID="IF2" Hardware="X20CP3586">
+    <Parameter ID="DeviceDescription" Value="gei" />
+    <Parameter ID="EthInterfaceRedundant" Value="1" />
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF2.MODBUS" Hardware="MODBUS">
+    <Parameter ID="NumSlaves" Value="1" Type="INT" />
+    <Parameter ID="NumAllBlocks" Value="0" Type="INT" />
+    <Parameter ID="MemSizeIn" Value="0" Type="DINT" />
+    <Parameter ID="MemSizeOut" Value="0" Type="DINT" />
+    <Parameter ID="ModbusMaster" Value="1" />
+    <Parameter ID="ModbusSlave" Value="0" />
+    <Parameter ID="SlaveDiagnostics" Value="0" />
+  </Module>
+  <Module ID="IF2.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF2.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF2.ST1" Hardware="ModbusTcp_any">
+    <Parameter ID="HardwareModuleName" Value="ModbusTcp_any" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="IpAddress" Value="192.168.15.202" />
+    <Parameter ID="UnitId" Value="1" Type="INT" />
+    <Parameter ID="TcpPort" Value="502" Type="UINT" />
+    <Parameter ID="NumPendReq" Value="1" Type="INT" />
+    <Parameter ID="Response" Value="1500" Type="INT" />
+    <Parameter ID="PnpTimer" Value="10" Type="INT" />
+    <Parameter ID="ResetOutputs" Value="off" />
+    <Parameter ID="NumBlocks" Value="0" Type="INT" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActInternalError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActConfError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActOverloadError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActModbusError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActSlvConError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ActRefreshError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ModSlaveState">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusErrorLast">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="LastErrBlockNr">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusSlaveDiag">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistInternalError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistConfError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistOverloadError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistModbusError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistSlvConError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="HistRefreshError">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="ModbusErrorCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusConErrorCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusPktRefreshTimeoutCnt">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusPktPendPerSec">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="ModbusMeanResponseTime">
+      <Parameter ID="Ext" Value="/HW" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+  </Module>
+  <Module ID="IF3" Hardware="X20CP3586">
+    <Parameter ID="Operation" Value="EthOnly" />
+    <Parameter ID="MtuSize" Value="1500" Type="UDINT" />
+    <Parameter ID="BaudRate" Value="102" Type="UDINT" />
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF3.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF6.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="1000" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="SS1" Hardware="X20IF10X0">
+    <Parameter ID="HardwareModuleName" Value="X20IF10X0" />
+  </Module>
+  <Module ID="SS1.IO" Hardware="X20IF10X0">
+    <Parameter ID="FunctionModel" Value="Standard" />
+  </Module>
+  <Module ID="SS2" Hardware="X20IF2181-2">
+    <Parameter ID="HardwareModuleName" Value="X20IF2181-2" />
+  </Module>
+  <Module ID="SS2.IF1" Hardware="X20IF2181-2">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="SS2.IF1.PLK" Hardware="EPL-V2">
+    <Parameter ID="EplInterfaceRedundant" Value="1" />
+    <Parameter ID="EplPrimaryHostName" Value="br-automation" />
+    <Parameter ID="EplSecondaryHostName" Value="br-automation" />
+    <Parameter ID="CycleTime" Value="2000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="8" Type="UDINT" />
+    <Parameter ID="Mode" Value="RMN" />
+    <Parameter ID="EPL_NodeGetDevice" Value="%NW_ADDRESS%" />
+    <Parameter ID="EPL_NodeGetParam" Value="/NAME=NODE" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="BasicEthernetInServiceMode" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.101.0" />
+    <Parameter ID="RingRedundancy" Value="0" Type="UDINT" />
+    <Parameter ID="WireRedundancy" Value="1" Type="UDINT" />
+    <Parameter ID="WireRedundancyFilter" Value="on" />
+    <Parameter ID="EPL_LossFrameTolerance" Value="-1" Type="DINT" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="SS2.IO" Hardware="X20IF2181-2">
+    <Parameter ID="FunctionModel" Value="Standard" />
+  </Module>
+</IOCFG> 

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.11.2.75"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1" />
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="DCS2_2"
+      Disable="false"
+      Source="DCS2_2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS2_2\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS2_2\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS2_2\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS4_1"
+      Disable="false"
+      Source="DCS4_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS4_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS4_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS4_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS5_1"
+      Disable="false"
+      Source="DCS5_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS5_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS5_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS5_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS9_1"
+      Disable="false"
+      Source="DCS9_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS9_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS9_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS9_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS13_1"
+      Disable="false"
+      Source="DCS13_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS13_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS13_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS13_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS15_1"
+      Disable="false"
+      Source="DCS15_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS15_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS15_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS15_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS18_1"
+      Disable="false"
+      Source="DCS18_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS18_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS18_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS18_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS31_1"
+      Disable="false"
+      Source="DCS31_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS31_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS31_2"
+      Disable="false"
+      Source="DCS31_2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS31_2\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_2\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_2\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS31_3"
+      Disable="false"
+      Source="DCS31_3"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS31_3\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_3\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_3\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS31_4"
+      Disable="false"
+      Source="DCS31_4"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS31_4\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_4\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS31_4\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS34_1"
+      Disable="false"
+      Source="DCS34_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS34_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS34_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS34_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS35_1"
+      Disable="false"
+      Source="DCS35_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS35_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS35_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS35_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS36_1"
+      Disable="false"
+      Source="DCS36_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS36_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS36_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS36_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS37_1"
+      Disable="false"
+      Source="DCS37_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS37_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS37_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS37_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS39_1"
+      Disable="false"
+      Source="DCS39_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS39_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS39_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS39_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS40_1"
+      Disable="false"
+      Source="DCS40_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS40_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS40_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS40_1\Variables.var" />
+    </Task>
+    <Task
+      Name="DCS45_1"
+      Disable="false"
+      Source="DCS45_1"
+      Language="IEC">
+      <InternalFile
+        Path="C:\OZNA\BR\IP001\Temp\Objects\stend\X20CP3586\DCS45_1\Main.st.var" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS45_1\Types.typ" />
+      <File
+        Path="C:\OZNA\BR\IP001\Logical\DCS45_1\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

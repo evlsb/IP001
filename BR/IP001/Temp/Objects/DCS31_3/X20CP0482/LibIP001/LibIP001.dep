@@ -1,0 +1,4 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/LibIP001.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/DRV_mbus/DRV_mbus.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/LibIP001/Types.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var

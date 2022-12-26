@@ -1,0 +1,10 @@
+(* ABAK_MB_TCP *)
+FUNCTION_BLOCK ABAK_TCP
+	CASE step OF
+		0:
+		1:
+		2:
+		3:
+		4:
+	END_CASE
+END_FUNCTION_BLOCK

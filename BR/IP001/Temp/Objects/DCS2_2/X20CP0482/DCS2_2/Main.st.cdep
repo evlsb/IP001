@@ -1,0 +1,5 @@
+$(AS_CPU_PATH)/dcs2_2/main.st.o:
+$(AS_CPU_PATH)/dcs2_2/main.st.c
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_CPU_PATH)/dcs2_2/mainst.h

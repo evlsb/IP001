@@ -1,0 +1,143 @@
+Begin DDE Information.
+    Last DDE Source:	6
+Begin DDE Source Definition.
+    Source Name:		OPCUA
+    Application Name:		\\localhost\Gateway
+    Topic Name:			OPCUA_DeviceGroup
+    DDE Source ID:		3
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		OPC
+    Application Name:		\\localhost\Gateway
+    Topic Name:			OPC_DeviceGroup
+    DDE Source ID:		1
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		Galaxy
+    Application Name:		\\NA\NA
+    Topic Name:			NA
+    DDE Source ID:		2
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			3
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		IOStatus
+    Application Name:		view
+    Topic Name:			IOStatus
+    DDE Source ID:		4
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		local
+    Application Name:		view
+    Topic Name:			tagname
+    DDE Source ID:		5
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+        AccessLevelReEditDocs;0040:  AccessLevel.29
+        AccessLevelViewCSUM;003F:  AccessLevel.28
+        AccessLevelResetArm;003E:  AccessLevel.27
+        AccessLevelEditSettingsSIKN;003D:  AccessLevel.26
+        AccessLevelEditSPO;003C:  AccessLevel.25
+        AccessLevelEditPPO;003B:  AccessLevel.24
+        AccessLevelKmhProve;003A:  AccessLevel.23
+        AccessLevelPrintDocs;0039:  AccessLevel.22
+        AccessLevelEditDocs;0038:  AccessLevel.21
+        AccessLevelViewDocs;0037:  AccessLevel.20
+        AccessLevelEditCtrlData;0036:  AccessLevel.19
+        AccessLevelViewCtrlData;0035:  AccessLevel.18
+        AccessLevelEditParamSI;0034:  AccessLevel.17
+        AccessLevelEditPLCTime;0033:  AccessLevel.16
+        AccessLevelEditCoeffs;0032:  AccessLevel.15
+        AccessLevelEditSettings;0031:  AccessLevel.14
+        AccessLevelViewSettings;0030:  AccessLevel.13
+        AccessLevelEditMode;002F:  AccessLevel.12
+        AccessLevelEditMask;002E:  AccessLevel.11
+        AccessLevelEditSmp;002D:  AccessLevel.10
+        AccessLevelControlSmp;002C:  AccessLevel.09
+        AccessLevelControlDev;002B:  AccessLevel.08
+        AccessLevelEditUserRules;002A:  AccessLevel.07
+        AccessLevelViewUserRules;0029:  AccessLevel.06
+        AccessLevelEditUsers;0028:  AccessLevel.05
+        AccessLevelViewUsers;0027:  AccessLevel.04
+        AccessLevelAlarmAccept;0026:  AccessLevel.03
+        AccessLevelViewAlarm;0025:  AccessLevel.02
+        AccessLevelViewTrends;0024:  AccessLevel.01
+        AccessLevelEnableView;0023:  AccessLevel.00
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		plc
+    Application Name:		\\localhost\GATEWAY
+    Topic Name:			OPCUA_DCS2_2
+    DDE Source ID:		6
+    Request Initial Data:	1
+    Always Advise:		1
+    SuiteLink:			1
+    Begin DDE Points
+        SHSU2_2_AI1_6_Current;0071:  /pv/::DCS2_2:AI[1,6].Current
+        SHSU2_2_AI1_6_HiScale;0070:  /pv/::DCS2_2:AI[1,6].HiScale
+        SHSU2_2_AI1_6_LoScale;006F:  /pv/::DCS2_2:AI[1,6].LoScale
+        SHSU2_2_AI1_6_LoLoLimit;006E:  /pv/::DCS2_2:AI[1,6].LoLoLimit
+        SHSU2_2_AI1_6_LoLimit;006D:  /pv/::DCS2_2:AI[1,6].LoLimit
+        SHSU2_2_AI1_6_HiLimit;006C:  /pv/::DCS2_2:AI[1,6].HiLimit
+        SHSU2_2_AI1_6_HiHiLimit;006B:  /pv/::DCS2_2:AI[1,6].HiHiLimit
+        SHSU2_2_AI1_6_Replace_Value;006A:  /pv/::DCS2_2:AI[1,6].Replace_Value
+        SHSU2_2_AI1_6;0069:  /pv/::DCS2_2:AI[1,6].Value
+        SHSU2_2_AI1_3_Current;0068:  /pv/::DCS2_2:AI[1,3].Current
+        SHSU2_2_AI1_3_HiScale;0067:  /pv/::DCS2_2:AI[1,3].HiScale
+        SHSU2_2_AI1_3_LoScale;0066:  /pv/::DCS2_2:AI[1,3].LoScale
+        SHSU2_2_AI1_3_LoLoLimit;0065:  /pv/::DCS2_2:AI[1,3].LoLoLimit
+        SHSU2_2_AI1_3_LoLimit;0064:  /pv/::DCS2_2:AI[1,3].LoLimit
+        SHSU2_2_AI1_3_HiLimit;0063:  /pv/::DCS2_2:AI[1,3].HiLimit
+        SHSU2_2_AI1_3_HiHiLimit;0062:  /pv/::DCS2_2:AI[1,3].HiHiLimit
+        SHSU2_2_AI1_3_Replace_Value;0061:  /pv/::DCS2_2:AI[1,3].Replace_Value
+        SHSU2_2_AI1_3;0060:  /pv/::DCS2_2:AI[1,3].Value
+        SHSU2_2_AI1_2_Current;005F:  /pv/::DCS2_2:AI[1,2].Current
+        SHSU2_2_AI1_2_HiScale;005E:  /pv/::DCS2_2:AI[1,2].HiScale
+        SHSU2_2_AI1_2_LoScale;005D:  /pv/::DCS2_2:AI[1,2].LoScale
+        SHSU2_2_AI1_2_LoLoLimit;005C:  /pv/::DCS2_2:AI[1,2].LoLoLimit
+        SHSU2_2_AI1_2_LoLimit;005B:  /pv/::DCS2_2:AI[1,2].LoLimit
+        SHSU2_2_AI1_2_HiLimit;005A:  /pv/::DCS2_2:AI[1,2].HiLimit
+        SHSU2_2_AI1_2_HiHiLimit;0059:  /pv/::DCS2_2:AI[1,2].HiHiLimit
+        SHSU2_2_AI1_2_Replace_Value;0058:  /pv/::DCS2_2:AI[1,2].Replace_Value
+        SHSU2_2_AI1_2;0057:  /pv/::DCS2_2:AI[1,2].Value
+        SHSU2_2_AI1_1_Current;0056:  /pv/::DCS2_2:AI[1,1].Current
+        SHSU2_2_AI1_1_HiScale;0055:  /pv/::DCS2_2:AI[1,1].HiScale
+        SHSU2_2_AI1_1_LoScale;0054:  /pv/::DCS2_2:AI[1,1].LoScale
+        SHSU2_2_AI1_1_LoLoLimit;0053:  /pv/::DCS2_2:AI[1,1].LoLoLimit
+        SHSU2_2_AI1_1_LoLimit;0052:  /pv/::DCS2_2:AI[1,1].LoLimit
+        SHSU2_2_AI1_1_HiLimit;0051:  /pv/::DCS2_2:AI[1,1].HiLimit
+        SHSU2_2_AI1_1_HiHiLimit;0050:  /pv/::DCS2_2:AI[1,1].HiHiLimit
+        SHSU2_2_AI1_1_Replace_Value;004F:  /pv/::DCS2_2:AI[1,1].Replace_Value
+        SHSU2_2_AI1_1;004E:  /pv/::DCS2_2:AI[1,1].Value
+        SHSU2_2_AI1_6_RegCmd;004D:  /pv/::DCS2_2:AI[1,6].RegCmd
+        SHSU2_2_AI1_6_RegStatus;004C:  /pv/::DCS2_2:AI[1,6].RegStatus
+        SHSU2_2_AI1_3_RegCmd;004B:  /pv/::DCS2_2:AI[1,3].RegCmd
+        SHSU2_2_AI1_3_RegStatus;004A:  /pv/::DCS2_2:AI[1,3].RegStatus
+        SHSU2_2_AI1_2_RegCmd;0049:  /pv/::DCS2_2:AI[1,2].RegCmd
+        SHSU2_2_AI1_2_RegStatus;0048:  /pv/::DCS2_2:AI[1,2].RegStatus
+        SHSU2_2_AI1_1_RegCmd;0047:  /pv/::DCS2_2:AI[1,1].RegCmd
+        SHSU2_2_AI1_1_RegStatus;0046:  /pv/::DCS2_2:AI[1,1].RegStatus
+    End DDE Points
+End DDE Source Definition.
+End DDE Information.

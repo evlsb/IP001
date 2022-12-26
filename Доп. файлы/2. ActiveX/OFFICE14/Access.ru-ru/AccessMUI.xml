@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_SIG=MnvJask4GsvAwpOiZ8zgc75HrzN0tWoP8fRlIvGdNdg9UmW/gzxBeuy75RrV+Zl0hzTo0yfF/vdOLfkwL5U6wOlMcip64f7kVmeVu1oQ0lqCD7BaN7ZK/Tg+EN6CqSB4Rv5y+DrSiWJeNseLRpjoo7Yb0fUcGSRyzRxKCwsocH4=-->
+<Package Id="AccessMUI.ru-ru" Type="MSI" Path="AccessMUI.MSI" Version="1.0" ProductCode="{90140000-0015-0419-0000-0000000FF1CE}" MSIVersion="14.0.4763.1000" Platform="x86">
+	<Feature Id="Gimme_OnDemandData" Cost="0">
+		<OptionRef Id="Gimme_OnDemandData"/>
+	</Feature>
+	<Feature Id="ACCESSFilesIntl_1049" Cost="1630776">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="ACCESSNonBootFilesIntl_1049" Cost="2293229">
+		<OptionRef Id="ACCESSFiles"/>
+	</Feature>
+	<Feature Id="AccessDEFilesIntl_1049" Cost="2039567">
+		<OptionRef Id="AccessAddinPWFiles"/>
+	</Feature>
+	<Feature Id="AccessHelpFilesIntl_1049" Cost="19212616">
+		<OptionRef Id="AccessHelpFiles"/>
+	</Feature>
+	<Feature Id="AccessTemplatesIntl_1049" Cost="11824159">
+		<OptionRef Id="AccessTemplatesIntl"/>
+	</Feature>
+	<Feature Id="SetupControllerFiles" Cost="764554">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="SetupXmlFiles" Cost="468">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+	<Feature Id="MsoInstalledPackagesScopedIntl_1049" Cost="0">
+		<OptionRef Id="AlwaysInstalled"/>
+	</Feature>
+</Package>
