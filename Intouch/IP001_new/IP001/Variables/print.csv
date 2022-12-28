@@ -1,0 +1,9 @@
+[VARIABLE]
+PrintDocNumber;0;
+PrintDocCounter;0;
+PrintDocTimer;0;
+PrintDocPause;0;
+
+[ARRAY]
+PrintDocList;50;10;1;
+PrintDocSettings;10;50;1;

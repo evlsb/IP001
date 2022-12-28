@@ -1029,7 +1029,7 @@
     Path="C:\OZNA\BR\IP001\Physical\DCS2_2\Hardware.hw"
     LogicalPath="DCS2_2.Hardware.hw"
     Type="File"
-    LastWriteTime="133162566099270348"
+    LastWriteTime="133165071133567561"
     Private="false" />
   <Object
     Path="C:\OZNA\BR\IP001\Physical\DCS2_2\Hardware.hwl"
@@ -1041,7 +1041,7 @@
     Path="C:\OZNA\BR\IP001\Physical\DCS2_2\X20CP0482\Cpu.pkg"
     LogicalPath="DCS2_2.X20CP0482"
     Type="Cpu"
-    LastWriteTime="133162557928441997" />
+    LastWriteTime="133165070619227141" />
   <Object
     Path="C:\OZNA\BR\IP001\Physical\DCS2_2\X20CP0482\Cpu.sw"
     LogicalPath="DCS2_2.X20CP0482.Cpu.sw"

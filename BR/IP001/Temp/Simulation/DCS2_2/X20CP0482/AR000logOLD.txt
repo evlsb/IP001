@@ -1,21 +1,21 @@
-Fri Dec 23 13:10:09 2022
+Mon Dec 26 12:59:54 2022
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Fri Dec 23 13:10:09 2022
+Mon Dec 26 12:59:54 2022
 No ARsim registration found!
 
-Fri Dec 23 13:10:10 2022
-InstanceName: 000000d0d2fb3da4
+Mon Dec 26 12:59:54 2022
+InstanceName: 00000007b2705194
 
-Fri Dec 23 13:10:10 2022
+Mon Dec 26 12:59:54 2022
 WorkingDirectory: C:\OZNA\BR\IP001\Temp\Simulation\DCS2_2\X20CP0482\
 
-Fri Dec 23 13:10:10 2022
+Mon Dec 26 12:59:54 2022
 COMMAND_COLDSTART
 
-Fri Dec 23 13:10:12 2022
+Mon Dec 26 12:59:57 2022
 Version: B4.92
 
-Fri Dec 23 13:13:07 2022
+Mon Dec 26 13:43:11 2022
 COMMAND_TERMINATE
 

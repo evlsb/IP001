@@ -1,0 +1,14 @@
+[VARIABLE]
+InputDataType;;
+InputCountAxis;;
+InputNameVar;;
+InputXPos;;
+InputYPos;;
+InputZPos;;
+InputInt;;
+InputFloat;;
+InputString;;
+InputExp;;
+InputDate;;
+InputDatetime;
+InputTime;

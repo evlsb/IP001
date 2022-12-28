@@ -1,0 +1,12 @@
+[VARIABLE]
+almhistservername;;
+almhistdatabase;;
+almhistuid;;
+almhistpwd;;
+almhisttablename;;
+almhistsource;;
+almhistdatebegin;;
+almhistdateend;;
+almhistalarmgroup;;
+almhisttype;1;
+almhistprintenable;1;

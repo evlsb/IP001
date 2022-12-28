@@ -1,0 +1,13 @@
+[VARIABLE]
+kmhDensAreomId;0;
+kmhDensLabDensId;0;
+kmhDensPycnoId;0;
+kmhDensIdDb;0;
+kmhDensIdArm;0;
+kmhDensPrint;0;
+
+[ARRAY]
+kmhDensAreom;16;9;1;
+kmhDensLabDens;16;9;1;
+kmhDensEtalon;10;8;1;
+kmhDensPycno;23;13;1;

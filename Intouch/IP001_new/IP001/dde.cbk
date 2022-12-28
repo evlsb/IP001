@@ -1,91 +1,6 @@
 Begin DDE Information.
     Last DDE Source:	6
 Begin DDE Source Definition.
-    Source Name:		OPCUA
-    Application Name:		\\localhost\Gateway
-    Topic Name:			OPCUA_DeviceGroup
-    DDE Source ID:		3
-    Request Initial Data:	1
-    Always Advise:		0
-    SuiteLink:			1
-    Begin DDE Points
-    End DDE Points
-End DDE Source Definition.
-Begin DDE Source Definition.
-    Source Name:		OPC
-    Application Name:		\\localhost\Gateway
-    Topic Name:			OPC_DeviceGroup
-    DDE Source ID:		1
-    Request Initial Data:	1
-    Always Advise:		0
-    SuiteLink:			1
-    Begin DDE Points
-    End DDE Points
-End DDE Source Definition.
-Begin DDE Source Definition.
-    Source Name:		Galaxy
-    Application Name:		\\NA\NA
-    Topic Name:			NA
-    DDE Source ID:		2
-    Request Initial Data:	1
-    Always Advise:		0
-    SuiteLink:			3
-    Begin DDE Points
-    End DDE Points
-End DDE Source Definition.
-Begin DDE Source Definition.
-    Source Name:		IOStatus
-    Application Name:		view
-    Topic Name:			IOStatus
-    DDE Source ID:		4
-    Request Initial Data:	1
-    Always Advise:		0
-    SuiteLink:			1
-    Begin DDE Points
-    End DDE Points
-End DDE Source Definition.
-Begin DDE Source Definition.
-    Source Name:		local
-    Application Name:		view
-    Topic Name:			tagname
-    DDE Source ID:		5
-    Request Initial Data:	1
-    Always Advise:		0
-    SuiteLink:			1
-    Begin DDE Points
-        AccessLevelReEditDocs;0040:  AccessLevel.29
-        AccessLevelViewCSUM;003F:  AccessLevel.28
-        AccessLevelResetArm;003E:  AccessLevel.27
-        AccessLevelEditSettingsSIKN;003D:  AccessLevel.26
-        AccessLevelEditSPO;003C:  AccessLevel.25
-        AccessLevelEditPPO;003B:  AccessLevel.24
-        AccessLevelKmhProve;003A:  AccessLevel.23
-        AccessLevelPrintDocs;0039:  AccessLevel.22
-        AccessLevelEditDocs;0038:  AccessLevel.21
-        AccessLevelViewDocs;0037:  AccessLevel.20
-        AccessLevelEditCtrlData;0036:  AccessLevel.19
-        AccessLevelViewCtrlData;0035:  AccessLevel.18
-        AccessLevelEditParamSI;0034:  AccessLevel.17
-        AccessLevelEditPLCTime;0033:  AccessLevel.16
-        AccessLevelEditCoeffs;0032:  AccessLevel.15
-        AccessLevelEditSettings;0031:  AccessLevel.14
-        AccessLevelViewSettings;0030:  AccessLevel.13
-        AccessLevelEditMode;002F:  AccessLevel.12
-        AccessLevelEditMask;002E:  AccessLevel.11
-        AccessLevelEditSmp;002D:  AccessLevel.10
-        AccessLevelControlSmp;002C:  AccessLevel.09
-        AccessLevelControlDev;002B:  AccessLevel.08
-        AccessLevelEditUserRules;002A:  AccessLevel.07
-        AccessLevelViewUserRules;0029:  AccessLevel.06
-        AccessLevelEditUsers;0028:  AccessLevel.05
-        AccessLevelViewUsers;0027:  AccessLevel.04
-        AccessLevelAlarmAccept;0026:  AccessLevel.03
-        AccessLevelViewAlarm;0025:  AccessLevel.02
-        AccessLevelViewTrends;0024:  AccessLevel.01
-        AccessLevelEnableView;0023:  AccessLevel.00
-    End DDE Points
-End DDE Source Definition.
-Begin DDE Source Definition.
     Source Name:		plc
     Application Name:		\\localhost\GATEWAY
     Topic Name:			OPCUA_DCS2_2
@@ -138,6 +53,91 @@ Begin DDE Source Definition.
         SHSU2_2_AI1_2_RegStatus;0048:  /pv/::DCS2_2:AI[1,2].RegStatus
         SHSU2_2_AI1_1_RegCmd;0047:  /pv/::DCS2_2:AI[1,1].RegCmd
         SHSU2_2_AI1_1_RegStatus;0046:  /pv/::DCS2_2:AI[1,1].RegStatus
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		local
+    Application Name:		view
+    Topic Name:			tagname
+    DDE Source ID:		5
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+        AccessLevelReEditDocs;0040:  AccessLevel.29
+        AccessLevelViewCSUM;003F:  AccessLevel.28
+        AccessLevelResetArm;003E:  AccessLevel.27
+        AccessLevelEditSettingsSIKN;003D:  AccessLevel.26
+        AccessLevelEditSPO;003C:  AccessLevel.25
+        AccessLevelEditPPO;003B:  AccessLevel.24
+        AccessLevelKmhProve;003A:  AccessLevel.23
+        AccessLevelPrintDocs;0039:  AccessLevel.22
+        AccessLevelEditDocs;0038:  AccessLevel.21
+        AccessLevelViewDocs;0037:  AccessLevel.20
+        AccessLevelEditCtrlData;0036:  AccessLevel.19
+        AccessLevelViewCtrlData;0035:  AccessLevel.18
+        AccessLevelEditParamSI;0034:  AccessLevel.17
+        AccessLevelEditPLCTime;0033:  AccessLevel.16
+        AccessLevelEditCoeffs;0032:  AccessLevel.15
+        AccessLevelEditSettings;0031:  AccessLevel.14
+        AccessLevelViewSettings;0030:  AccessLevel.13
+        AccessLevelEditMode;002F:  AccessLevel.12
+        AccessLevelEditMask;002E:  AccessLevel.11
+        AccessLevelEditSmp;002D:  AccessLevel.10
+        AccessLevelControlSmp;002C:  AccessLevel.09
+        AccessLevelControlDev;002B:  AccessLevel.08
+        AccessLevelEditUserRules;002A:  AccessLevel.07
+        AccessLevelViewUserRules;0029:  AccessLevel.06
+        AccessLevelEditUsers;0028:  AccessLevel.05
+        AccessLevelViewUsers;0027:  AccessLevel.04
+        AccessLevelAlarmAccept;0026:  AccessLevel.03
+        AccessLevelViewAlarm;0025:  AccessLevel.02
+        AccessLevelViewTrends;0024:  AccessLevel.01
+        AccessLevelEnableView;0023:  AccessLevel.00
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		IOStatus
+    Application Name:		view
+    Topic Name:			IOStatus
+    DDE Source ID:		4
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		Galaxy
+    Application Name:		\\NA\NA
+    Topic Name:			NA
+    DDE Source ID:		2
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			3
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		OPC
+    Application Name:		\\localhost\Gateway
+    Topic Name:			OPC_DeviceGroup
+    DDE Source ID:		1
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
+    End DDE Points
+End DDE Source Definition.
+Begin DDE Source Definition.
+    Source Name:		OPCUA
+    Application Name:		\\localhost\Gateway
+    Topic Name:			OPCUA_DeviceGroup
+    DDE Source ID:		3
+    Request Initial Data:	1
+    Always Advise:		0
+    SuiteLink:			1
+    Begin DDE Points
     End DDE Points
 End DDE Source Definition.
 End DDE Information.

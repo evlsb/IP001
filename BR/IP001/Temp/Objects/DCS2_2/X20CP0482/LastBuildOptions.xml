@@ -10,23 +10,23 @@
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\X20CP0482\Connectivity\OpcUA\OpcUaMap.uad&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\OpcUaMap\OpcUaMap.uar&quot; -H &quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot; -B B4.92 -c DCS2_2 -P &quot;$(AS_PROJECT_PATH)&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\ashwac.br&quot; -L &quot;AsBrStr: V*, AsIecCon: V*, AsMbTCP: V*, asstring: V*, astime: V*, brsystem: V*, DataObj: V*, DRV_mbus: V*, dvframe: V*, Lib489: V*, LibIP001: V*, MTBasics: V5.06.0, MTTypes: V1.03.4, operator: V*, runtime: V*, standard: V*, sys_lib: V*&quot; -c &quot;DCS2_2&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -M IA32 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;DCS2_2&quot; -T SG4 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot;  -c &quot;DCS2_2&quot; -sysconf -S &quot;X20CP0482&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\sysconf.br&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;DCS2_2&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP0482&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\asfw.br&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;DCS2_2&quot; -zip -s &quot;DCS2_2&quot; -firmware -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot;  -v V1.00.0 -S &quot;X20CP0482&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\ashwd.br&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;DCS2_2&quot; -zip -s &quot;DCS2_2&quot; -hwd -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\x20cp0482\iomap.iom" LastWriteTime="2021-11-02 06:15:30" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\DCS2_2\X20CP0482\IoMap.iom&quot;  -arconfig -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DA=2 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;DCS2_2&quot; -v V1.00.0 -S &quot;X20CP0482&quot; -Z &quot;Connectivity: n.d, UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, RemanentData: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\DCS2_2\X20CP0482\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B B4.92 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;DCS2_2&quot; " />
   </Rule>
@@ -37,7 +37,7 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\iomap.br">
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\x20cp0482\iomap.iom" LastWriteTime="2021-11-02 06:15:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\x20cp0482\pvmap.vvm" LastWriteTime="2021-11-02 06:15:30" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-23 08:10:08" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\hardware.hw" LastWriteTime="2022-12-26 05:45:12" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\physical\dcs2_2\x20cp0482\cpu.sw" LastWriteTime="2021-11-02 06:15:30" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\dcs2_2\x20cp0482\channelconfiguration.xml" LastWriteTime="2022-12-23 07:40:08" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\logical\dcs2_2\variables.var" LastWriteTime="2022-03-29 05:54:44" />

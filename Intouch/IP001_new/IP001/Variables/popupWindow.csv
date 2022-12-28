@@ -1,0 +1,13 @@
+[VARIABLE]
+popupWindowLeftPos;0;
+popupWindowTopPos;0;
+popupWindowWidth;0;
+popupWindowHight;0;
+popupWindowTimerPreset;0;
+popupWindowMessage;"";
+popupWindowType;0;
+popupWindowTitle;"";
+popupWindowCounter;"";
+
+[ARRAY]
+popupWindowHolder;5;100;1;
